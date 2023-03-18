@@ -1,5 +1,5 @@
 package oopsday2.atm;
-
+// implements functions
 public class BankofAmerica2 implements BankingIface2 {
 
 	private Account[] accounts = new Account[5];

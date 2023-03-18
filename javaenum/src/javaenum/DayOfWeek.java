@@ -8,9 +8,17 @@ public enum DayOfWeek {
 	FRIDAY("Friday"),
 	SATURDAY("Saturday"),
 	SUNDAY("Sunday");
-	private DayOfWeek(String string) {
-		// TODO Auto-generated constructor stub
+	
+	
+	private final String name;
+	DayOfWeek(String name){
+		this.name=name;
 	}
 	
+	public String getName() {
+		return name;
+	}
+
+
 
 }

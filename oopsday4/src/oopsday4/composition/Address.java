@@ -16,7 +16,7 @@ public class Address {
 		super();
 		this.doorNo = doorNo;
 		this.buildingName = buildingName;
-		Street = street;
+		this.Street = street;
 		this.city = city;
 		this.pin = pin;
 	}

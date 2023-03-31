@@ -13,6 +13,7 @@ public class Compare {
 		int b=35;
 		
 		boolean result = a==b; //are they equal or not
+		System.out.println(result);
 		// comparing object 2 cases: 1. comparing references 2. comparing members
 		
 		result = r1==r2;//false  hashcode different

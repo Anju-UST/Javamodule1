@@ -1,7 +1,7 @@
 package Strings;
 
 public class TestStrings {
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		byte bytes[]= {65,66,67,68,69};
@@ -34,13 +34,13 @@ public class TestStrings {
 		String words[]=string.split("-"); //internally splitting string based on space and storing into array then taking the length of that array
 		//she sell sea shells
 		//on the sea shore      if[.]as separator put square bracket
-		System.out.println(words.length);//8
+		System.out.println(words.length);//2
 		for(String w:words) {
 			System.out.println(w); //print words
 		}
 		String string1=new String("cartoon");
 		System.out.println(string1.startsWith("car"));
-		System.out.println(string.endsWith("toon"));
+		System.out.println(string1.endsWith("toon"));
 		
 		int apos= string1.indexOf('a');
 		int tpos=string1.indexOf('t');

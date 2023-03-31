@@ -2,8 +2,8 @@ package oopsday4.composition;
 
 public class A {
 
-		private int x=5;
-		private int y=2;
+		private int x;
+		private int y;
 		public A()
 		{
 			System.out.println("from method");

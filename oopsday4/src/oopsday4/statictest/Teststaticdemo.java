@@ -7,7 +7,7 @@ public class Teststaticdemo {
 		staticdemo d =new staticdemo();
 		System.out.println(d.a);
 		staticdemo d1 =new staticdemo();
-		System.out.println(d1.a);   // each time object is created a is incrementig
+		System.out.println(d1.a);   // each time object is created a is incrementing
 		staticdemo d2 =new staticdemo();
 		System.out.println(d2.a);
 		System.out.println(staticdemo.a);

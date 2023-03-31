@@ -16,24 +16,23 @@ public class TestArrayList {
 		flowers.add("jasmine");
 		flowers.add("lily");
 		flowers.add("cosmos");
-		/*
-		 * System.out.println(flowers); System.out.println(flowers.size());
-		 * System.out.println(flowers.get(2));//jasmine
-		 * System.out.println(flowers.contains("lily"));//true
-		 * flowers.add(2,"sunflower");
-		 * 
-		 * for(Object obj:flowers) { System.out.println(obj);
-		 * 
-		 * } flowers.remove(2); System.out.println(flowers);
-		 * 
-		 * Iterator iter =flowers.iterator();
-		 * 
-		 * while(iter.hasNext()) { System.out.println(iter.next()); }
-		 * 
-		 * for(int i=0;i<flowers.size();i++) { System.out.println(flowers.get(i)); }
-		 * 
-		 * //String str=(String)flowers.get(5);
-		 */	Object obj = flowers.get(0);
+		
+		
+		  System.out.println(flowers.contains("lily"));//true
+		  flowers.add(2,"sunflower");
+		 
+		  for(Object obj:flowers) { System.out.println(obj);
+		  
+		  } flowers.remove(2); System.out.println(flowers);
+		 
+		  Iterator iter =flowers.iterator();
+		 
+		  while(iter.hasNext()) { System.out.println(iter.next()); }
+		  
+		  for(int i=0;i<flowers.size();i++) { System.out.println(flowers.get(i)); }
+		 
+		 //String str=(String)flowers.get(5);
+		 	Object obj = flowers.get(0);
 		if(obj instanceof Integer) {
 			Integer in=(Integer) obj;
 			System.out.println(in.MIN_VALUE);

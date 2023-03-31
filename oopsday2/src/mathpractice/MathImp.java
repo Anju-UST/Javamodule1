@@ -1,9 +1,6 @@
 package mathpractice;
 
 public class MathImp implements MathIface {
-
-	
-	
 	
 	public MathImp() {
 		

@@ -28,10 +28,10 @@ public class Commonelmt {
 			System.out.println(i);
 		}
 		System.out.println("common elements are:");
-//		for(int i:list1) {
-//			System.out.println(list1.contains(list2.get(i)));
-//		}
-		list1.retainAll(list2);
+		for(int i:list1) {
+			System.out.println(list1.contains(list2.get(i)));
+		}
+		//list1.retainAll(list2);
 		System.out.println(list1);
 		
 	}
